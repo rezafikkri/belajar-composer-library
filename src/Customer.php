@@ -5,8 +5,8 @@ namespace RezaFikkri\BelajarComposerLibrary;
 class Customer
 {
     public function __construct(
-        private string $name = 'RezaFikkri',
         private string $address,
+        private string $name = 'RezaFikkri',
     ) {
         
     }
