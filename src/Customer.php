@@ -6,6 +6,7 @@ class Customer
 {
     public function __construct(
         private string $address,
+        private string $job,
         private string $name = 'RezaFikkri',
     ) {
         
@@ -19,5 +20,10 @@ class Customer
     public function getAddress(): string
     {
         return $this->address;
+    }
+
+    public function getJob(): string
+    {
+        return $this->job;
     }
 }
